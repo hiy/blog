@@ -25,7 +25,7 @@ const featuredPosts = sortedPosts.filter(
       <h1>Mingalaba</h1>
       <a
         target="_blank"
-        href="/rss.xml"
+        href="/blog/rss.xml"
         class="rss-link"
         aria-label="rss feed"
         title="RSS Feed"
@@ -70,7 +70,7 @@ const featuredPosts = sortedPosts.filter(
             <ul>
               {featuredPosts.map(({ frontmatter }) => (
                 <Card
-                  href={`/posts/${slugify(frontmatter)}`}
+                  href={`/blog/posts/${slugify(frontmatter)}`}
                   post={frontmatter}
                   secHeading={false}
                 />
@@ -99,7 +99,7 @@ const featuredPosts = sortedPosts.filter(
         }
       </ul>
       <div class="all-posts-btn-wrapper">
-        <LinkButton href="/posts">
+        <LinkButton href="/blog/posts">
           All Posts
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path

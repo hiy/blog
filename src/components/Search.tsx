@@ -79,9 +79,9 @@ export default function SearchBar({ searchList }: Props) {
           </svg>
         </span>
         <input
-          className="placeholder:italic placeholder:text-opacity-75 py-3 pl-10 pr-3 
+          className="placeholder:italic placeholder:text-opacity-75 py-3 pl-10 pr-3
         block bg-skin-fill w-full rounded
-        border border-skin-fill border-opacity-40 
+        border border-skin-fill border-opacity-40
         focus:outline-none focus:border-skin-accent"
           placeholder="Search for anything..."
           type="text"
@@ -109,7 +109,7 @@ export default function SearchBar({ searchList }: Props) {
           searchResults.map(({ item, refIndex }) => (
             <Card
               post={item.frontmatter}
-              href={`/posts/${slugify(item.frontmatter)}`}
+              href={`/blog/posts/${slugify(item.frontmatter)}`}
               key={`${refIndex}-${slugify(item.frontmatter)}`}
             />
           ))}
