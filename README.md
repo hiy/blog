@@ -1,6 +1,3 @@
 # blog
 
-```bash
-npm run dev
-npm run build
-```
+## https://hiy.github.io/blog/
