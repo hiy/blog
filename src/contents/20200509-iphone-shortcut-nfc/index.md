@@ -4,7 +4,7 @@ datetime: 2020-05-19
 title: iPhoneのショートカットアプリとNFCタグで、Hueの照明をオンオフする
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - Hue
   - iPhone
