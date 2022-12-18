@@ -90,7 +90,7 @@ const featuredPosts = sortedPosts.filter(
             ({ frontmatter }, index) =>
               index < 4 && (
                 <Card
-                  href={`/posts/${slugify(frontmatter)}`}
+                  href={`/blog/posts/${slugify(frontmatter)}`}
                   post={frontmatter}
                   secHeading={false}
                 />
