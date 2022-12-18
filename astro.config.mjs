@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://hiy.github.io/",
-  base: '/blog',
+  outDir: './dist/blog',
   integrations: [
     tailwind({
       config: {
